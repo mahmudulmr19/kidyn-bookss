@@ -72,6 +72,10 @@ export default {
         ".py-section": {
           "@apply py-10 sm:py-16 md:py-20 lg:py-24": {},
         },
+        ".section-title": {
+          "@apply font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-950 [&>span]:text-primary":
+            {},
+        },
       });
     }),
   ],
