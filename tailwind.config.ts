@@ -1,5 +1,6 @@
 import { type Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
+import plugin from "tailwindcss/plugin";
 import tailwindAnimate from "tailwindcss-animate";
 
 export default {
@@ -62,5 +63,16 @@ export default {
       },
     },
   },
-  plugins: [tailwindAnimate],
+  plugins: [
+    tailwindAnimate,
+    plugin(function ({ addUtilities, addBase, addComponents }) {
+      addUtilities({});
+      addBase({});
+      addComponents({
+        ".py-section": {
+          "@apply py-10 sm:py-16 md:py-20 lg:py-24": {},
+        },
+      });
+    }),
+  ],
 } satisfies Config;
