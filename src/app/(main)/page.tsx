@@ -1,4 +1,10 @@
-import { FeaturedBook, FindBook, Hero, WhatWeOffer } from "~/components/home";
+import {
+  FeaturedBook,
+  FindBook,
+  Hero,
+  Naptha,
+  WhatWeOffer,
+} from "~/components/home";
 import { Newsletter } from "~/components/shared";
 import React from "react";
 
@@ -9,6 +15,7 @@ export default function Home() {
       <WhatWeOffer />
       <FindBook />
       <FeaturedBook />
+      <Naptha />
       <Newsletter />
     </React.Fragment>
   );
