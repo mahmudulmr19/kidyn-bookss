@@ -1,4 +1,4 @@
-import { FindBook, Hero, WhatWeOffer } from "~/components/home";
+import { FeaturedBook, FindBook, Hero, WhatWeOffer } from "~/components/home";
 import { Newsletter } from "~/components/shared";
 import React from "react";
 
@@ -8,6 +8,7 @@ export default function Home() {
       <Hero />
       <WhatWeOffer />
       <FindBook />
+      <FeaturedBook />
       <Newsletter />
     </React.Fragment>
   );
