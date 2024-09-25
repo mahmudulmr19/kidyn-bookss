@@ -8,10 +8,10 @@ export function Newsletter() {
     <Container className="py-section">
       <div className="py-section rounded-xl bg-[url('/bg-newsletter.svg')] bg-cover bg-bottom bg-no-repeat md:rounded-2xl lg:rounded-3xl">
         <div className="mx-auto max-w-3xl px-4 text-center">
-          <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">
+          <h2 className="section-title mb-4 text-white">
             Subscribe For Newest Books Updates
           </h2>
-          <p className="mb-6 text-purple-200">
+          <p className="mb-6 text-sm text-gray-50 md:text-base">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry&apos;s standard dummy
             text ever since the 1500s
